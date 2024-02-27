@@ -1,0 +1,8 @@
+CC = gcc
+CFLAGS = -I
+
+all:
+	$(CC) fisher.c -o fisher
+
+clean:
+	rm -r fisher
